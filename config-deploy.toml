@@ -6,21 +6,21 @@ part-of      = 'foundation'
 
 [[CloudFormation]]
 name         = "INFRA-security-administrator-permission-boundary-policy"
-template     = '../Delegat-Install/apps/foundation/BoundaryPolicies/security-administrator-permission-boundary-policy.yaml'
+template     = '../CloudSecOps-Installer/apps/foundation/BoundaryPolicies/security-administrator-permission-boundary-policy.yaml'
 account      = 'ALL'
 regions      = '{main-region}'
 capabilities = 'CAPABILITY_NAMED_IAM'
 
 [[CloudFormation]]
 name         = "INFRA-network-administrator-permission-boundary-policy"
-template     = '../Delegat-Install/apps/foundation/BoundaryPolicies/network-administrator-permission-boundary-policy.yaml'
+template     = '../CloudSecOps-Installer/apps/foundation/BoundaryPolicies/network-administrator-permission-boundary-policy.yaml'
 account      = 'ALL'
 regions      = '{main-region}'
 capabilities = 'CAPABILITY_NAMED_IAM'
 
 [[CloudFormation]]
 name         = "INFRA-developer-permission-boundary-policy"
-template     = '../Delegat-Install/apps/foundation/BoundaryPolicies/developer-permission-boundary-policy.yaml'
+template     = '../CloudSecOps-Installer/apps/foundation/BoundaryPolicies/developer-permission-boundary-policy.yaml'
 account      = 'ALL'
 regions      = '{main-region}'
 capabilities = 'CAPABILITY_NAMED_IAM'
